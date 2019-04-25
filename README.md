@@ -33,7 +33,7 @@ var Application = React.createClass({
 
 ### Properties
 * `active` (Boolean) - Initial switch state (default: false),
-* `style` (Object) - Styles for outer container (margins, ...),
+* `styles` (Object) - Styles for outer container (margins, ...),
 * `inactiveButtonColor` (String) - Button color  (default: '#2196F3'),
 * `inactiveButtonPressedColor` (String) (default: '#42A5F5'),
 * `activeButtonColor` (String) (default: '#FAFAFA'),
@@ -46,7 +46,6 @@ var Application = React.createClass({
 * `switchHeight` (Number) - (default: 20),
 * `buttonContent` (React.Component) - Custom inline content for switch button (default: null),
 * `enableSlide` (Boolean) - (default: true),
-* `enableSlideDragging` - (default: true) - Allows to change the position of the toggle by sliding. Does not work in react-native-web. If disabled, you can only toggle by pressing,
 * `switchAnimationTime` (Number) - Switch animation duration (default: 200),
 
 ### Events
